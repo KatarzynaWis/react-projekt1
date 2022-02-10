@@ -7,7 +7,7 @@ const TeamMember = ({ id, fullName, position, description, photo }) => {
           : "about-us-section__team-member about-us-section__team-member--even"
       }>
       <div>
-        <img className="about-us-section__photo" src={photo}/>
+        <img className="about-us-section__photo" src={photo} alt="photo"/>
       </div>
       <div
         className={
