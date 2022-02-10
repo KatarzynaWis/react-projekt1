@@ -1,0 +1,25 @@
+.main-container,
+.footer {
+  margin: 0 auto;
+  width: 100%;
+}
+.header,
+.home-section,
+.about-us-section,
+.offer-section {
+  padding: 0 10%;
+}
+@media screen and (min-width: 977px) {
+  .main-container,
+  .footer {
+    margin: 0 auto;
+    width: 960px;
+  }
+  .header,
+  .home-section,
+  .about-us-section,
+  .offer-section,
+  .footer {
+    padding: 0 90px;
+  }
+}

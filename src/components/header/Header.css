@@ -1,0 +1,31 @@
+.header {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4e4e4e;
+  color: #fff;
+}
+.header__logo {
+  font-weight: bold;
+  white-space: nowrap;
+}
+.header__menu {
+  display: none;
+}
+.header__link {
+  margin-left: 46px;
+  color: #f1f1f1;
+  white-space: nowrap;
+}
+.header__link--disabled {
+  cursor: not-allowed;
+}
+@media screen and (min-width: 520px) {
+  .header__menu {
+    display: flex;
+  }
+  .header__link--disabled:hover {
+    color: rgb(242, 242, 242, 0.5);
+  }
+}
