@@ -2,16 +2,16 @@ const TeamMember = ({ id, fullName, position, description, photo }) => {
   return (
     <div
       className={
-        id%2 != 0
+        id%2 !== 0
           ? "about-us-section__team-member"
           : "about-us-section__team-member about-us-section__team-member--even"
       }>
       <div>
-        <img className="about-us-section__photo" src={photo} alt="photo"/>
+        <img className="about-us-section__photo" src={photo}/>
       </div>
       <div
         className={
-          id%2 != 0
+          id%2 !== 0
             ? "about-us-section__description--odd"
             : "second-section__description--even"
         }>
